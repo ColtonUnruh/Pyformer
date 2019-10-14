@@ -1,0 +1,48 @@
+Things to improve:
+Remove old debug tools, most importantly the record feature.
+Replace the debug tools(except the record feature).
+Make the controls an object that is reference in the other classes.
+Have the doors functions off player displacement instead of containment.
+Improve the way the player spawns from doors.
+Improve the way leniency for jumping off a ledge is handled.
+Improve the way moving platforms interact with the player(maybe).
+Store rectangle values as floats for finer speed control (subpixels).
+Change the way the game handles sprites from resolution.
+Speed and gravity values are tied to the frame rate, should fix that?
+Make the text and images on the menus part of a single sprite group rather than being a named object.
+
+
+Features to add soon:
+Transition between menu and gameplay
+A way to switch between weapons
+One way platforms
+Text boxes(signs you can read)
+Add loading screen between areas
+Controller support
+Animation(maybe)
+Ducking + Slide kick
+
+
+Features to add in the future:
+Health for the player
+"Damage boost"
+Obstacles that hurt the player
+A failure state("game over")
+Enemies that can move and attack on their own
+
+A way to bind key/buttons
+An inventory system
+Equippable armor
+Equippable weapons
+
+Events that cause the world to change
+A door that opens when you have enough coins
+
+Pushable boxes(maybe)
+Buttons(maybe)
+Wall jump(maybe)
+
+Stats screen(or just make screen in main menu)
+A magic bar for spells
+Cursor support in the menu(maybe?)
+A way to save the game
